@@ -1,0 +1,14 @@
+import java.util.Scanner
+
+public class Power{
+  public static void main(String[] args){
+    Scanner scan = new Scanner(system.in);
+    double x=scan.nextDouble();
+    for(double i=2.0,i<=5.0,i++)
+    {
+        double c=Math.pow(x,i);
+        System.out.println(""+c);
+    }
+    scan.close();
+  }
+}
